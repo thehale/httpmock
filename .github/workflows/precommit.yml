@@ -2,9 +2,9 @@ name: Run `pre-commit` on PRs
 
 on:
   pull_request:
-    branches: [main, qa, dev]
+    branches: [main, master, qa, dev]
   push:
-    branches: [main, qa, dev]
+    branches: [main, master, qa, dev]
 
 jobs:
   main:
